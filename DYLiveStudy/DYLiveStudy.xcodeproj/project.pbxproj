@@ -99,6 +99,7 @@
 		503F5A0723588F25001356C9 /* DYLiveStudy */ = {
 			isa = PBXGroup;
 			children = (
+				503F5A382358A603001356C9 /* Classes */,
 				503F5A0823588F25001356C9 /* AppDelegate.swift */,
 				503F5A0A23588F25001356C9 /* SceneDelegate.swift */,
 				503F5A0C23588F25001356C9 /* ContentView.swift */,
@@ -134,6 +135,61 @@
 				503F5A2C23588F28001356C9 /* Info.plist */,
 			);
 			path = DYLiveStudyUITests;
+			sourceTree = "<group>";
+		};
+		503F5A382358A603001356C9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				503F5A3E2358A603001356C9 /* Main */,
+				503F5A392358A603001356C9 /* Home */,
+				503F5A3D2358A603001356C9 /* Live */,
+				503F5A3B2358A603001356C9 /* Follow */,
+				503F5A3C2358A603001356C9 /* Profile */,
+				503F5A3A2358A603001356C9 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		503F5A392358A603001356C9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		503F5A3A2358A603001356C9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		503F5A3B2358A603001356C9 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		503F5A3C2358A603001356C9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		503F5A3D2358A603001356C9 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		503F5A3E2358A603001356C9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,6 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DYLiveStudy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DYLiveStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = WG.DYLiveStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,6 +514,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DYLiveStudy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DYLiveStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +522,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = WG.DYLiveStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
